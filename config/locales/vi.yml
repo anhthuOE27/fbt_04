@@ -51,7 +51,17 @@ vi:
     tour:
       review: "Review"
       booking: "Đặt"
+  bookingtours:
+    new: 
       confirm: "Bạn chắc chứ?"
+      fullname: "Họ Tên"
+      phone: "Điện Thoại"
+      address: "Địa Chỉ"
+      tour: "Tour: "
+      price: "Giá: "
+      startdate: "Ngày bắt đầu: "
+      book: "Đặt"
+      amountpeople: "Số người: "
   controllers:
     signup:
       success: "Đăng ký thành công"
@@ -69,7 +79,7 @@ vi:
     users:
       danger: "Hãy Đăng Nhập Chính Xác Tài Khoản."
       profiless: "Cập nhật thành công!"
-      profilef: "Cập nhật thất bại"
+      profilefail: "Cập nhật thất bại"
       notfound: "Người dùng không tồn tại"
     bookingtours:
       create:
@@ -127,7 +137,7 @@ vi:
       phone: "Số điện thoại"
       address: "Địa chỉ"
       password: "Mật Khẩu"
-      passwordcofir: "Xác nhận mật khẩu"
+      password_cofirmation: "Xác nhận mật khẩu"
       namerequire: "Name is required"
       emailrequire: "Valid email is required: ex@abc.xyz"
       phonerequire: "Phone is required"
@@ -140,4 +150,4 @@ vi:
       phone: "Số điện thoại"
       address: "Địa chỉ"
       password: "Mật Khẩu"
-      passwordcofir: "Xác nhận mật khẩu"
+      password_cofirmation: "Xác nhận mật khẩu"

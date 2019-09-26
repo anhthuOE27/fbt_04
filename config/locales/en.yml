@@ -67,7 +67,7 @@ en:
     users:
       danger: "Please log in."
       profiless: "Success Uploaded"
-      profilef: "Fail to upload"
+      profilefail: "Fail to upload"
       notfound: "User not exist"
     bookingtours:
       create:
@@ -115,7 +115,17 @@ en:
     tour:
       review: "Review"
       booking: "Booking"
+  bookingtours:
+    new: 
       confirm: "You sure?"
+      fullname: "FullName"
+      phone: "Phone"
+      address: "Address"
+      tour: "Tour: "
+      price: "Price: "
+      startdate: "Start date: "
+      book: "Book"
+      amountpeople: "Amount People: "
   users:
     new:
       signup: "Sign Up"
@@ -125,7 +135,7 @@ en:
       phone: "Your Phone Number"
       address: "Address"
       password: "Password"
-      passwordcofir: "Password Confirmation"
+      password_cofirmation: "Password Confirmation"
       namerequire: "Name is required"
       emailrequire: "Valid email is required: ex@abc.xyz"
       phonerequire: "Phone is required"
@@ -138,4 +148,4 @@ en:
       phone: "Your Phone Number"
       address: "Address"
       password: "Password"
-      passwordcofir: "Password Confirmation"
+      password_cofirmation: "Password Confirmation"
