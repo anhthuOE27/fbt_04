@@ -18,7 +18,7 @@
     <p><%= t ".startdate" %><%= @tour.startdate.strftime("%d-%m-%Y") %> </p>
 
     <%= f.label t ".amountpeople" %>
-    <%= f.text_field :amountpeople, class: "form-control" %>
+    <%= f.text_field :amountpeople %>
 
     <%= f.submit t(".book"), class: "btn btn-primary", data: { confirm: t(".confirm") }%>
       
